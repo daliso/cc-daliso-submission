@@ -30,7 +30,7 @@ dictionary, which would become very slow as the dataset becomes larger.
 Approach to Feature 2: Median Unique
 ====================================
 
-For this feature, I make use of Pythons conversion of lists to sets to get the 
+For this feature, I make use of Python's conversion of lists to sets to get the 
 unique words. 
 
 I append the number of unique tweets to a list one at a time, and on each iteration
